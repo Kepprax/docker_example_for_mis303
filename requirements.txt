@@ -1,0 +1,4 @@
+flask
+art
+Flask-SQLAlchemy
+psycopg2-binary
