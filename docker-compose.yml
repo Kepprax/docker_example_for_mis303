@@ -17,7 +17,7 @@ services:
       retries: 5
 
   flask_app:
-    image: tunahanyavuz/aybu-mis-app:v1.0 
+    image: tunahanyavuz/docker_example:example1.0
     environment:
       DATABASE_URL: postgresql://user:pass@db:5432/aybu_db
     depends_on:
